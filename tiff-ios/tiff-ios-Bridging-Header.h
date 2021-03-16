@@ -9,7 +9,6 @@
 #ifndef tiff_ios_Bridging_Header_h
 #define tiff_ios_Bridging_Header_h
 
-#import "tiff_ios.h"
 #import "TIFFFieldTagTypes.h"
 #import "TIFFFieldTypes.h"
 #import "TIFFFileDirectory.h"

@@ -11,7 +11,6 @@
 		041F18CB24C6044D001311E4 /* TIFFSwiftReadmeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F18CA24C6044D001311E4 /* TIFFSwiftReadmeTest.swift */; };
 		042FC6571B963FE500549A4B /* tiff_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042FC64B1B963FE500549A4B /* tiff_ios.framework */; };
 		042FC6D31B96421E00549A4B /* tiff-ios-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 042FC69E1B96421E00549A4B /* tiff-ios-Prefix.pch */; };
-		042FC6D51B96453E00549A4B /* tiff_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 042FC6D41B96453E00549A4B /* tiff_ios.h */; };
 		0472B51B1C03590500496B87 /* tiff-ios-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472B51A1C03590500496B87 /* tiff-ios-Bridging-Header.h */; };
 		04AB919E1BF29F9A00894999 /* TIFFTestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB919D1BF29F9A00894999 /* TIFFTestUtils.m */; };
 		04B23E9521C2ABD8004080AF /* TIFFUnsupportedCompression.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B23E9321C2ABD8004080AF /* TIFFUnsupportedCompression.h */; };
@@ -94,7 +93,6 @@
 		042FC6561B963FE500549A4B /* tiff_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiff_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042FC65C1B963FE500549A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042FC69E1B96421E00549A4B /* tiff-ios-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tiff-ios-Prefix.pch"; sourceTree = "<group>"; };
-		042FC6D41B96453E00549A4B /* tiff_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiff_ios.h; sourceTree = "<group>"; };
 		0472B51A1C03590500496B87 /* tiff-ios-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tiff-ios-Bridging-Header.h"; sourceTree = "<group>"; };
 		04AB919C1BF29F9A00894999 /* TIFFTestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIFFTestUtils.h; sourceTree = "<group>"; };
 		04AB919D1BF29F9A00894999 /* TIFFTestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIFFTestUtils.m; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 		042FC64D1B963FE500549A4B /* tiff-ios */ = {
 			isa = PBXGroup;
 			children = (
-				042FC6D41B96453E00549A4B /* tiff_ios.h */,
 				04B60FA91E37AB9600E73068 /* compression */,
 				04B60FAA1E37ABB200E73068 /* io */,
 				04B60FAB1E37ABBC00E73068 /* util */,
@@ -355,7 +352,6 @@
 				04B60FFE1E37AD1000E73068 /* TIFFLZWCompression.h in Headers */,
 				0472B51B1C03590500496B87 /* tiff-ios-Bridging-Header.h in Headers */,
 				04B60FC01E37AC3100E73068 /* TIFFFieldTypes.h in Headers */,
-				042FC6D51B96453E00549A4B /* tiff_ios.h in Headers */,
 				04B60FC41E37AC3100E73068 /* TIFFFileDirectoryEntry.h in Headers */,
 				04B60FCE1E37AC3100E73068 /* TIFFWriter.h in Headers */,
 				04B60FFB1E37AD1000E73068 /* TIFFCompressionEncoder.h in Headers */,
